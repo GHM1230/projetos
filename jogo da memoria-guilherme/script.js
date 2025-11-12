@@ -21,7 +21,7 @@ let moves = 0; // Contador de quantos movimentos o jogador fez
 // IMPORTANTE: Certifique-se de que os caminhos para as imagens estão corretos em seu projeto.
 const cardImages = [
     '01.png', '02.png', '03.png', '04.png','05.png', '06.png', '07.png', '08.png',
-    '09.png', '10.png', '11.png', '12.png'
+    '09.png', '10.png', '11.png', '12.png','13.png','14.png','15.png','16.png','17.png','18.png'
 ];
 
 // --- Função Principal: Inicializa o Jogo ---
@@ -60,7 +60,7 @@ function initializeGame() {
         const backFace = document.createElement('img');
         backFace.classList.add('back-face'); // Adiciona a classe CSS 'back-face'
         // IMPORTANTE: Defina o caminho para a imagem do verso da carta.
-        backFace.src = './assets/img/card_back.jpg';
+        backFace.src = 'flip de carta.png';
         backFace.alt = 'Card Back';
 
         // Adiciona as faces (frente e verso) como "filhos" dentro da div da carta
